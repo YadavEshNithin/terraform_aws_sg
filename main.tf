@@ -1,5 +1,5 @@
-resource "aws_security_group" "allow_tls" {
-  name        = var.sg_name
+resource "aws_security_group" "frontend_allow_sg" {
+  name        = var.frontend_allow_sg_name
   description = var.sg_description
   vpc_id      = aws_vpc.main.id
 
