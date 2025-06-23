@@ -2,7 +2,7 @@
     type = string
   }
 
-  variable "sg_description" {
+  variable "sg_desc" {
     type = string
     
   }
