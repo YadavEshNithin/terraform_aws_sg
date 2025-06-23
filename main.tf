@@ -1,7 +1,7 @@
 resource "aws_security_group" "frontend_allow_sg" {
   name        = var.frontend_allow_sg_name
   description = var.sg_description
-  vpc_id      = aws_vpc.main.id
+  vpc_id      = var.vpc_id
 
   tags = merge(
     var.sg_tags,
