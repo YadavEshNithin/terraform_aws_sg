@@ -1,4 +1,4 @@
-  variable "frontend_allow_sg_name" {
+  variable "sg_name" {
     type = string
   }
 

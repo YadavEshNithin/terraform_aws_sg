@@ -1,3 +1,7 @@
-output "frontend_allow_sg" {
-  value = aws_security_group.frontend_allow_sg.id
+output "sg_ido" {
+  value = aws_security_group.main.id
 }
+
+# output "sg_id" {
+#   value = aws_security_group.main.id
+# }
